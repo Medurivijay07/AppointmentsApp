@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.list-item {
+  border: 1px solid #b5b7c4;
+  width: 300px;
+  height: 150px;
+  border-radius: 12px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 12px;
+}
+
+.title-star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-style {
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.title-input {
+  outline: none;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.date-input {
+  outline: none;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.form-related {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  color: black;
+}
+
+.added-appointments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starred-button {
+  color: #9897f0;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.star-button {
+  background-color: #9897f0;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.unordered-list {
+  display: flex;
+  flex-wrap: wrap;
+}
